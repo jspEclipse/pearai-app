@@ -9,6 +9,22 @@
 	flex-direction: row;
 }
 
+.custom-button {
+	border: 1px solid var(--vscode-commandCenter-border);
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    height: 70%;
+	border-radius: 6px;
+	background-color: var(--vscode-commandCenter-background);
+}
+
+.custom-button:hover {
+    cursor: pointer;
+	background-color: var(--vscode-commandCenter-activeBackground);
+}
+
+
 .monaco-workbench.mac .part.titlebar {
 	flex-direction: row-reverse;
 }
